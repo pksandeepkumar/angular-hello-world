@@ -12,4 +12,9 @@ export class FormComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  submit(login) {
+    console.log("Form submitted", login);
+  }
+
 }
+ 
