@@ -13,3 +13,10 @@
 <ul class="list-group">
     <li *ngFor = "let info of infoReceived3" class="list-group-item">{{info}}</li>
 </ul>
+
+<div>
+    Months:
+    <select>
+        <option *ngFor = "let i of months">{{i}}</option>
+    </select>
+</div>

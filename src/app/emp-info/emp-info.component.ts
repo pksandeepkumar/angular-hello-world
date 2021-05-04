@@ -14,6 +14,9 @@ export class EmpInfoComponent implements OnInit {
   infoReceived2 : String[] = [];
   infoReceived3 : String[] = [];
 
+  months = ["January", "February", "March", "April", "May", "June", "July", 
+      "August", "September", "October", "November", "December"]; 
+
   getInfoFromServiceClass1() {
     this.infoReceived1 = this.rService.getInfo1();
   }
